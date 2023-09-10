@@ -14,6 +14,6 @@ app.get('/', (req, res) => {
   res.send('Hello "updated" world!');
 });
 
-app.listen(8080, () => {
-  console.log('Server ready at localhost:8080 que funcione');
+app.listen(3000, () => {
+  console.log('Server ready at localhost:3000 que funcione');
 });
